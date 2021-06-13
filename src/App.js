@@ -17,26 +17,40 @@ export default function App() {
             href="https://www.flaticon.com/authors/smashicons"
             title="Smashicons"
             target="_blank"
+            rel="noreferrer"
           >
             Smashicons
           </a>{" "}
           from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">
+          <a
+            href="https://www.flaticon.com/"
+            title="Flaticon"
+            target="_blank"
+            rel="noreferrer"
+          >
             www.flaticon.com
           </a>
         </div>
         <div>
-          <a href="https://github.com/dimagmercan" target="_blank">
+          <a
+            href="https://github.com/dimagmercan"
+            target="_blank"
+            rel="noreferrer"
+          >
             Open-source code{" "}
           </a>
           by{" "}
-          <a href="https://www.linkedin.com/in/dimagmercan/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/dimagmercan/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Dimag Mercan
           </a>
         </div>
         <div>
           Hosted by{" "}
-          <a href="https://www.netlify.com/" target="_blank">
+          <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
             Netlify
           </a>
         </div>
