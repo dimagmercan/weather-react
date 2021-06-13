@@ -11,14 +11,35 @@ export default function App() {
       <Search />
 
       <footer>
-        This project was coded by{" "}
-        <a href="https://www.linkedin.com/in/dimagmercan/" target="_blank">
-          Dimag Mercan
-        </a>{" "}
-        and is{" "}
-        <a href="https://github.com/dimagmercan/weather-react" target="_blank">
-          open-sourced on Github
-        </a>
+        <div>
+          Icons made by{" "}
+          <a
+            href="https://www.flaticon.com/authors/smashicons"
+            title="Smashicons"
+            target="_blank"
+          >
+            Smashicons
+          </a>{" "}
+          from{" "}
+          <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">
+            www.flaticon.com
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/dimagmercan" target="_blank">
+            Open-source code{" "}
+          </a>
+          by{" "}
+          <a href="https://www.linkedin.com/in/dimagmercan/" target="_blank">
+            Dimag Mercan
+          </a>
+        </div>
+        <div>
+          Hosted by{" "}
+          <a href="https://www.netlify.com/" target="_blank">
+            Netlify
+          </a>
+        </div>
       </footer>
     </div>
   );
