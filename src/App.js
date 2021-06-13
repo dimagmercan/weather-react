@@ -1,5 +1,6 @@
 import "./App.css";
 import Search from "./Search";
+import Weather from "./Weather";
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
           <h1>Weather Search Engine</h1>
         </header>
 
-        <Search />
+        <Weather />
 
         <footer>
           <div>
