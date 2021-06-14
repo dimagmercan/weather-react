@@ -9,7 +9,7 @@ export default function App() {
           <h1>Weather Search Engine</h1>
         </header>
 
-        <Weather />
+        <Weather defaultCity="Stockholm" />
 
         <footer>
           <div>
