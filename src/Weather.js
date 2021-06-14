@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
+import FormattedDate from "./FormattedDate.js";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -15,8 +16,7 @@ export default function Weather(props) {
       dayTemp: Math.round(response.data.main.temp_max),
       nightTemp: Math.round(response.data.main.temp_min),
       imgUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
-      day: "14 Jun 2021",
-      time: "09:27",
+      date: new Date(response.data.dt * 1000),
     });
   }
   if (weatherData.ready) {
@@ -47,8 +47,10 @@ export default function Weather(props) {
           <div className="row mb-3">
             <div className="col-4">
               <h1>{weatherData.city}</h1>
-              <p className="day">{weatherData.day}</p>
-              <p className="time">{weatherData.time}</p>
+              <p className="date">
+                {" "}
+                <FormattedDate date={weatherData.date} />
+              </p>
             </div>
             <div className="col-4">
               <h2>
