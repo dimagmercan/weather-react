@@ -28,7 +28,7 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
         <div className="col-4">
-          <img src={props.data.imgURL} width="130px" alt={props.data.desc} />
+          <img src={props.data.imgUrl} width="130px" alt={props.data.desc} />
         </div>
       </div>
       <div className="forecast-container"></div>
