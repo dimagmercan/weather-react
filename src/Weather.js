@@ -17,7 +17,7 @@ export default function Weather(props) {
       feels: Math.round(response.data.main.feels_like),
       dayTemp: Math.round(response.data.main.temp_max),
       nightTemp: Math.round(response.data.main.temp_min),
-      imgUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),
     });
   }
