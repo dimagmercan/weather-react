@@ -55,15 +55,11 @@ footer {
   font-weight: 800;
 }
 .btn-search {
-  background-color: #d4dcdf;
-  border: none #d4dcdf;
-  border-radius: 3px;
-}
-.btn-location {
   background-color: #9fc9d3;
   border: none #9fc9d3;
   border-radius: 3px;
 }
+
 .card-title {
   color: #95a5a5;
   font-size: 20px;
